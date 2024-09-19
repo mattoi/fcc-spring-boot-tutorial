@@ -108,6 +108,9 @@ I'll try to keep all the different versions as separate files.
 The first version of the repository is nothing special, just a standard List of Runs with a method for each basic CRUD operation. 
 The `@PostConstruct` annotation ensures that piece of code only runs after the initial application context is set.
 
+From this moment onwards, we can use Postman to test the API endpoints. 
+By importing [this collection](api/runnerz-postman-collection.json) we have some requests ready to do some testing.
+
 ## 3. Database
 The next step is rewriting the repository so it works with an actual database.
 We do this by using the JDBC API, which is an interface that connects Java applications and relational databases.
